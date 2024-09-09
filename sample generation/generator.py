@@ -23,7 +23,7 @@ output_dir_synth = 'data/synth/'
 os.makedirs(output_dir_bass, exist_ok=True)
 os.makedirs(output_dir_synth, exist_ok=True)
 
-for i in range(5):
+for i in range(300):
     # Randomize duration and frequency for variation
     bass_duration = random.randint(1000, 3000)  # Random duration between 1-3 seconds
     synth_duration = random.randint(1000, 3000)
